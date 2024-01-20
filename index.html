@@ -3,41 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title> AKHAND PRATAP MISHRA </title>
+  <title>AKHAND PRATAP MISHRA </title>
   <STYLE>
-#search{
-   background-color: red;
-   color: aqua;
-   width: 100%;
-   position: sticky;
-   height: 50px;
-   border-radius: 10cm;
-   padding-left: 9cm;
-   padding-top: 0.3cm;
-   padding-bottom: 0.3cm;
 
-}
-#yousearch{
-  background-color: blueviolet;
-color: chartreuse;
-width: 100px;
-height: 40px;
-border-radius: 70cm;
-position: sticky;
-
-}
-#search:hover{
-  background-color: chocolate;
-  color: blue;
-  width: 90%;
-  border-radius: 1cm;
-}
-#yousearch:hover{
-  width: 110px;
-  height: 50px;
-}
 body{
-  background-color: chartreuse;
+  background-color: chartreuse
 
 }
 
@@ -49,17 +19,89 @@ body{
 #apm{
 
   color: blue;
+  font-style: italic;
+   font-family : Audiowide, sans-serif; 
 }
+#searchInput{
+  background-color: rgb(255, 147, 147);
+  color: aqua;
+  width: 70%;
+  height: 50px;
+  border: 10cm;
+  border-radius: 9cm;
+  padding-left: 4%;
+  padding-top: 7%;
+  padding-bottom: 7%;
+  border-top: 4cm;
+  font-size: larger;
+ position: sticky; 
+}
+
+
+
+#SEARCH{
+width: 100px;
+height: 40px;
+border-radius: 9cm;
+padding-top: 5px ;
+position: sticky;
+mask-position: 9cm;
+position: static;
+position: -webkit-sticky;
+background-color: rgb(240, 112, 21);
+font-size: medium;
+color: chartreuse;
+}
+#searchInput:hover{
+  background-color: cyan;
+  color: chartreuse;
+  width: 85%;
+
+  border-radius: 9cm;
+  
+  transition: 2s;
+}
+#SEARCH:hover{
+  width: 5cm;
+  height: 2cm;
+  color: cornsilk;
+  background-color: darkblue;
+border-radius: 1cm ;
+border: 2cm;
+transition: 2s;
+}
+#links{
+font-size: medium;
+color: rgb(21, 94, 230);
+font-weight: 300;
+background-color: cyan;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-style: initial;
+font-variant: unset;
+font-stretch: wider;
+}
+#links:hover{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#ed{
+  color: chartreuse;
+            background-color: chocolate;
+            width: 20cm;
+          
+}
+table, th, td {
+          border:1px solid rgb(11, 129, 207);
+          font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+       color: rgb(247, 90, 0);
+       background-color: aqua;}
   </STYLE>
 </head>
 <body>
-  <div class="container" id="code">
-            <form action="https://www.google.com/search" method="get">
-                <label for="search"></label>
-            <input type="text" id="search" label="SEARCH WHAT YOU WHAT
-             " placeholder="SEARCH WHAT YOU WANT">
-            <input type="submit" value="Search" id="yousearch" >
-            </form></div>
+  <div class="sticky" >
+    <form action="https://www.google.com/search" method="GET" ID="search">
+      
+      <input type="text" id="searchInput" name="q" placeholder="SEARCH WITH AKHAND"  text="aqua">
+      <br><input type="submit" value="Search" ID="SEARCH"></form><div>
             
 <DIV ID="apm"><H1><P>
   HELLO CODERS, I AM AKHAND PRATAP MISHRA <BR>
@@ -72,8 +114,28 @@ body{
     
 
 </P></H1><img src="imgapm.jpg" width="100%"></DIV>
-<footer id="links"><a href="https://www.youtube.com/channel/UCVgpiJT8ek-D0PxtUKxIfIQ"><img src="YouTube.png" width="50px">MY YOUTUBE CHANNEL</a><br> <A href="https://music.youtube.com/channel/UCVgpiJT8ek-D0PxtUKxIfIQ?feature=share"><img scr="youtube-music.png" width="50px"> YOUTUBE MUSIC</A><BR>
-<A href="mailto:mishraakhand21@gmail.com"><img src="gmail.jpg" width="50">MAIL ME</A>
+<footer id="links">LINKS:<BR><a href="https://www.youtube.com/channel/UCVgpiJT8ek-D0PxtUKxIfIQ"><img src="YouTube.png" width="50px" AKHAND PRATAP MISHRA><img></a>
+  <a href="https://music.youtube.com/channel/UCVgpiJT8ek-D0PxtUKxIfIQ?feature=share"><img src="youtube-music.png" width="80px"> </a>
+<a href="https://github.com/CodeWithAkhand"><img src="GitHub_Invertocat_Logo.svg" width="50px"></a>
+  <a href="mailto:mishraakhand21@gmail.com"><img src="gmail.jpg" width="50"></A>
+    <a href="aboutus.html">ABOUT US</a>
+   <DIV id="ed"><DIV ><H1><P>HELLO I AM AKHAND PRATAP MISHRA <BR>
+      THE FOLLOWING IS MY EDUCATION</DIV>
+      <BR>
+          <table style="width:100%">
+              <tr>
+                <th>SCHOOL</th>
+                <th>DEGREE</th>
+                <th>MASTER</th>
+              </tr>
+              <tr>
+                <td>DIVINE PUBLIC SCHOOL</td>
+                <td>PW SKILLS DECODE FULL STACK WEB DEV 1.0</td>
+                <td>WEB DEVELOPMENT</td>
+              </tr>
+            
+            </table>
+      </P></H1></DIV>
 </footer>
 </body>
 </html>
