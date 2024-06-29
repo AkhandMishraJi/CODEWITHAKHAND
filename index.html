@@ -13,30 +13,34 @@
 body{
   font-family: "Indie Flower", sans-serif !important;
   background: linear-gradient(to right , red, blue);
-  background-repeat: no-repeat;
+/*   background-repeat: no-repeat; */
   background-size: 150%;
+	 background: linear-gradient(to right , red , pink , orange , yellow) ;
 }
 
 
 #clock {
 	font-size: 100px;
-	width: 120px;
+	width: 100%;
 	margin: 120px;
 	text-align: left;
 	border: 2px solid black;
 	border-radius: 20px 30px 20px 10px;
-        background: linear-gradient(to right , red , pink) ;
+       
 }
-    
+    #content{
+    font-size: 200px !important ;
+	    width: 100%
+    }
   </STYLE>
 </head>	
-<body>
-	  <H>
+<body><div id='content'
+	  <H1>
   OUR WEBSITE IS BUILDING <BR>
 	  NEW LOOK AND AUTHENTICATION WILL COME 
 	  <BR>
 	  PLEASE WAIT FOR WEBSITE 😄
-  </H1
+  </H1>
  <div id="clock"><script>// Calling showTime function at every second 
         setInterval(showTime, 1000);
         
@@ -80,6 +84,6 @@ body{
         showTime();
         </script></div></h6>
         </div>
-</footer>
+</footer></div>
 </body>
 </html>
